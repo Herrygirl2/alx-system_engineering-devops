@@ -1,6 +1,6 @@
 # Shell Scripting Permissions Tasks <br> <hr>
 
-Task 0: script that switches the current user to the user ```diff-`betty````
+Task 0: script that switches the current user to the user `betty`
 
 Exercise 1: id -un Print the effective user ID of current user. Other alternative is whoami
 
