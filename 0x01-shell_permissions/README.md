@@ -17,13 +17,13 @@
 **Task 7:** A script that adds execution permission to the owner, the group owner and the other users, to the file `hello`
 
 **Task 8:** A script that sets the permission to the file `hello` as follows: <br>
-               >> * Owner: no permission at all <br>
-               >* Group: no permission at all <br>
-               >* Other users: all the permissions <br>
+                * Owner: no permission at all <br>
+                * Group: no permission at all <br>
+                * Other users: all the permissions <br>
 
-**Task 9:**
+**Task 9:** Ascript that sets the mode of the file `hello` to `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello`
 
-**Task 10:**
+**Task 10:** A script that sets the mode of the file `hello` the same as ``olleh``’s mode. Both will be in the working directory
 
 **Task 11:**
 
