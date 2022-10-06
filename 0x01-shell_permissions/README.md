@@ -2,11 +2,11 @@
 
 **Task 0:** script that switches the current user to the user `betty`
 
-Exercise 1: id -un Print the effective user ID of current user. Other alternative is whoami
+**Task 1:** script that prints the effective username of the current user
 
-Exercise 2: id -Gn Prints all the groups the current user is part of.
+**Task 2:** script that prints all the groups the current user is part of
 
-Exercise 3: chown betty hello Changes the owner of the file hello to the user betty
+**Task 3:** script that changes the owner of the file `hello` to the user `betty`
 
 Exercise 4: touch hello Create an empty file called hello
 
