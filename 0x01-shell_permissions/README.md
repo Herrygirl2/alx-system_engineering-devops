@@ -8,7 +8,7 @@
 
 **Task 3:** A script that changes the owner of the file `hello` to the user `betty`
 
-Exercise 4: touch hello Create an empty file called hello
+**Task 4:** a script that creates an empty file called `hello`
 
 Exercise 5: chmod u+x hello Add execute permission to the owner of the file hello
 
