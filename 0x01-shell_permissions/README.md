@@ -16,7 +16,8 @@
 
 **Task 7:** A script that adds execution permission to the owner, the group owner and the other users, to the file `hello`. The file `hello` will be in the working directory
 
-**Task 8:** A script that sets the permission to the file `hello` as follows: <br>
+**Task 8:** A script that sets the permission to the file `hello` as follows:
+
                 * Owner: no permission at all
                 
                 * Group: no permission at all
