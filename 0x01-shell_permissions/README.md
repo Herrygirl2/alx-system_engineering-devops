@@ -19,7 +19,7 @@
 **Task 8:** A script that sets the permission to the file `hello` as follows: <br>
                 * Owner: no permission at all <br>
                 * Group: no permission at all <br>
-                * Other users: all the permissions <br>
+                - [ ] Other users: all the permissions <br>
 
 **Task 9:** Ascript that sets the mode of the file `hello` to `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello`
 
