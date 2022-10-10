@@ -1,31 +1,26 @@
 # Shell, I/O Redirections and filters Tasks
 
-*Task 0:* A script that prints “Hello, World”, followed by a new line to the standard output
+**Task 0:** A script that prints “Hello, World”, followed by a new line to the standard output
 
-Task 1: A script that prints the effective username of the current user
+**Task 1:** A script that displays a confused smiley `"(Ôo)'`
 
-Task 2: A script that prints all the groups the current user is part of
+**Task 2:** A script that display the content of the `/etc/passwd` file
 
-Task 3: A script that changes the owner of the file hello to the user betty
+**Task 3**: A script that display the content of `/etc/passwd` and `/etc/hosts`
 
-Task 4: A script that creates an empty file called hello
+**Task 4:** A script that display the last 10 lines of `/etc/passwd`
 
-Task 5: A script that adds execute permission to the owner of the file hello. The file hello will be in the working directory
+**Task 5:** A script that display the first 10 lines of `/etc/passwd`
 
-Task 6: A script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello. The file hello will be in the working directory
+**Task 6:** A script that displays the third line of the file `iacta`. The file `iacta` will be in the working directory
 
-Task 7: A script that adds execution permission to the owner, the group owner and the other users, to the file hello. The file hello will be in the working directory
+**Task 7:** A script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line
 
-Task 8: A script that sets the permission to the file hello as follows:
+**Task 8:** A script that writes into the file `ls_cwd_content` the result of the command `ls -la`. If the file `ls_cwd_content` already exists, it should be overwritten. If the file `ls_cwd_content` does not exist, create it
 
-             Owner: no permission at all
-            
-             Group: no permission at all
-            
-             Other users: all the permissions
-Task 9: Ascript that sets the mode of the file hello to -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+**Task 9:** Ascript that duplicates the last line of the file `iacta`
 
-Task 10: A script that sets the mode of the file hello the same as olleh’s mode. Both will be in the working directory
+**Task 10:** A script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders
 
 Task 11: A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
 
