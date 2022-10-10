@@ -28,14 +28,66 @@
                             
                             Hidden directories should be counted
 
-Task 12: A script that creates a directory called my_dir with permissions 751 in the working directory
+**Task 12:** A script that displays the 10 newest files in the current directory
 
-Task 13: A script that changes the group owner to school for the file hello. The file hello will be in the working directory
+                            One file per line
+                            
+                            Sorted from the newest to the oldest
 
-Task 14: A script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+**Task 13:** A script that takes a list of words as input and prints only words that appear exactly once
+                            
+                            Input format: One line, one word
+                            
+                            Output format: One line, one word
+                            
+                            Words should be sorted
 
-Task 15: A script that changes the owner and the group owner of _hello to vincent and staff respectively. The file _hello is in the working directory and a symbolic link
+**Task 14:** A script that display lines containing the pattern “root” from the file `/etc/passwd`
 
-Task 16: A script that changes the owner of the file hello to betty only if it is owned by the user guillaume
+**Task 15:** A script that display the number of lines that contain the pattern “bin” in the file `/etc/passwd`
 
-Task 17: A script that will play the StarWars IV episode in the terminal
+**Task 16:** A script that display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`
+
+**Task 17:** A script that display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”
+
+**Task 18:** A script that display all lines of the file /etc/ssh/sshd_config starting with a letter
+                        
+                        include capital letters as well
+
+**Task 19:** A script that replace all characters `A` and `c` from input to `Z` and `e` respectively
+
+**Task 20:** A script that removes all letters `c` and `C` from input
+
+**Task 21:** A script that reverse its input
+
+**Task 22:** A script that displays all users and their home directories, sorted by users
+
+                        Based on the the `/etc/passwd` file
+
+**Task 23:** A command that finds all empty files and directories in the current directory and all sub-directories
+
+                        Only the names of the files and directories should be displayed (not the entire path)
+                        
+                        Hidden files should be listed
+                        
+                        One file name per line
+                        
+                        The listing should end with a new line
+
+**Task 24:** A script that lists all the files with a `.gif` extension in the current directory and all its sub-directories
+
+                        Hidden files should be listed
+                        
+                        Only regular files (not directories) should be listed
+                        
+                        The names of the files should be displayed without their extensions
+                        
+                        The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file .b should be listed                             before file a, and file `Rona` should be listed after file `jay`)
+                        
+                        One file name per line
+                        
+                        The listing should end with a new line
+
+**Task 25:** A script that decodes acrostics that use the first letter of each line. The ‘decoded’ message has to end with a new line
+
+**Task 26:** A script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. Order by number of requests, most active host or IP at the top
