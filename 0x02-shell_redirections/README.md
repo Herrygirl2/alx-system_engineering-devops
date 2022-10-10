@@ -82,7 +82,7 @@
                         
                         The names of the files should be displayed without their extensions
                         
-                        The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file .b should be listed                             before file a, and file `Rona` should be listed after file `jay`)
+                        The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file .b should be listed before file a, and file `Rona` should be listed after file `jay`)
                         
                         One file name per line
                         
