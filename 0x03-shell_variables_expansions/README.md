@@ -1,4 +1,4 @@
-# Shell, init files, variables and expansion Task
+# Shell, init files, variables and expansion Tasks
 
 **Task 0:** A script that create a script that creates an alias.
 
@@ -6,30 +6,36 @@
                         
                         Value: `rm *`
 
-Task 1: A script that prints the effective username of the current user
+**Task 1:** A script that prints `hello user`, where user is the current Linux user
 
-Task 2: A script that prints all the groups the current user is part of
+**Task 2:** A script that add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program
 
-Task 3: A script that changes the owner of the file hello to the user betty
+**Task 3:** A script that counts the number of directories in the `PATH`
 
-Task 4: A script that creates an empty file called hello
+**Task 4:** A script that lists environment variables
 
-Task 5: A script that adds execute permission to the owner of the file hello. The file hello will be in the working directory
+**Task 5:** A script that lists all local variables and environment variables, and functions
 
-Task 6: A script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello. The file hello will be in the working directory
+**Task 6:** A script that creates a new local variable.
 
-Task 7: A script that adds execution permission to the owner, the group owner and the other users, to the file hello. The file hello will be in the working directory
+                        Name: `BEST`
+                        Value: `School`
 
-Task 8: A script that sets the permission to the file hello as follows:
+**Task 7:** A script that creates a new global variable.
 
-             Owner: no permission at all
-            
-             Group: no permission at all
-            
-             Other users: all the permissions
-Task 9: Ascript that sets the mode of the file hello to -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+                        Name: `BEST`
+                        Value: `School`
 
-Task 10: A script that sets the mode of the file hello the same as olleh’s mode. Both will be in the working directory
+**Task 8:** A script that prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a new line
+
+**Task 9:** Ascript that prints the result of `POWER` divided by `DIVIDE`, followed by a new line. `POWER` and `DIVIDE` are environment variables
+
+**Task 10:** A script that that displays the result of `BREATH` to the power `LOVE`
+
+                         `BREATH` and `LOVE` are environment variables
+                         
+                        The script should display the result, followed by a new line
+
 
 Task 11: A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
 
