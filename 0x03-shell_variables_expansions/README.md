@@ -2,8 +2,7 @@
 
 **Task 0:** A script that create a script that creates an alias.
 
-                        Name: `ls`
-                        
+                        Name: `ls` 
                         Value: `rm *`
 
 **Task 1:** A script that prints `hello user`, where user is the current Linux user
@@ -33,20 +32,38 @@
 **Task 10:** A script that that displays the result of `BREATH` to the power `LOVE`
 
                          `BREATH` and `LOVE` are environment variables
-                         
                         The script should display the result, followed by a new line
 
 
-Task 11: A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+**Task 11:** A script that converts a number from base 2 to base 10.
 
-Task 12: A script that creates a directory called my_dir with permissions 751 in the working directory
+                        The number in base 2 is stored in the environment variable `BINARY`
+                        The script should display the number in base 10, followed by a new line
+                        
+**Task 12:** A script that prints all possible combinations of two letters, except `oo`.
 
-Task 13: A script that changes the group owner to school for the file hello. The file hello will be in the working directory
+                        Letters are lower cases, from `a` to `z`
+                        One combination per line
+                        The output should be alpha ordered, starting with `aa`
+                        Do not print `oo`
+                        Your script file should contain maximum 64 characters
 
-Task 14: A script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+**Task 13:** A script that prints a number with two decimal places, followed by a new line.
 
-Task 15: A script that changes the owner and the group owner of _hello to vincent and staff respectively. The file _hello is in the working directory and a symbolic link
+                        The number will be stored in the environment variable `NUM`
 
-Task 16: A script that changes the owner of the file hello to betty only if it is owned by the user guillaume
+**Task 14**: A script that converts a number from base 10 to base 16.
 
-Task 17: A script that will play the StarWars IV episode in the terminal
+                        The number in base 10 is stored in the environment variable `DECIMAL`
+                        The script should display the number in base 16, followed by a new line
+
+**Task 15:** A script that encodes and decodes text using the rot13 encryption. Assume ASCII
+
+**Task 16:** A script that prints every other line from the input, starting with the first line
+
+**Task 17:** A script that adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result.
+
+                        `WATER` is in base `water`
+                        `STIR` is in base stir.
+                        The result should be in base `bestchol`
+                        
